@@ -1,9 +1,4 @@
 body {
-    margin: 0;
-    overflow: hidden;
-}
-
-canvas {
-    display: block;
-    background: #a9d6e5; /* Couleur du fond */
+    background-color: lightblue; /* Change la couleur de fond pour tester */
+    font-family: Arial, sans-serif;
 }
