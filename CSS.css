@@ -1,9 +1,32 @@
 body {
-    background-color: lightblue;
-    text-align: center;
-    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Couleur de fond */
+    text-align: center; /* Centrer le texte */
+    font-family: 'Arial', sans-serif; /* Police du texte */
+    display: flex; /* Utiliser flexbox pour centrer le contenu */
+    flex-direction: column; /* Disposer le contenu en colonne */
+    justify-content: center; /* Centrer verticalement */
+    height: 100vh; /* Remplir toute la hauteur de la fenêtre */
+    margin: 0; /* Supprimer les marges par défaut */
 }
 
-canvas {
-    border: 1px solid black; /* Bordure pour mieux voir le canvas */
+#welcomeText {
+    font-size: 2.5em; /* Taille de la police */
+    color: #2c3e50; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre portée */
+    margin-bottom: 20px; /* Espace en bas */
+}
+
+#playButton {
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 15px 30px; /* Espacement intérieur */
+    font-size: 1.5em; /* Taille de la police */
+    cursor: pointer; /* Curseur de la souris */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+#playButton:hover {
+    background-color: #2980b9; /* Couleur au survol */
 }
