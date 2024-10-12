@@ -1,5 +1,9 @@
 body {
-    background-color: lightblue; /* Couleur de fond */
-    font-family: Arial, sans-serif; /* Police du texte */
-    text-align: center; /* Alignement du texte */
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid black; /* Bordure pour mieux voir le canvas */
 }
