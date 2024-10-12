@@ -68,3 +68,26 @@ function render() {
 
 // Initialisation
 setup();
+
+document.getElementById("playButton").addEventListener("click", function() {
+    // Cacher le texte et le bouton
+    document.getElementById("welcomeText").style.display = "none";
+    document.getElementById("playButton").style.display = "none";
+    
+    // Afficher le canvas pour le jeu
+    document.getElementById("gameCanvas").style.display = "block";
+    
+    // Initialiser le jeu (tu peux appeler une fonction pour démarrer le jeu ici)
+    startGame();
+});
+
+// Exemple de fonction pour démarrer le jeu
+function startGame() {
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Exemple de logique de jeu : dessiner un rectangle représentant le tank
+    ctx.fillStyle = "green";
+    ctx.fillRect(100, 100, 50, 30); // Remplace cela par ton code de jeu
+}
+
