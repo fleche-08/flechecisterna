@@ -13,8 +13,9 @@ app.use(express.static('public'));
 let tanks = [];
 let bullets = [];
 
-io.on('connection', (socket) => {
-    console.log('Un joueur s\'est connecté');
+io.on('connection', (socket) => 
+console.log("Le script game.js est chargé."); // Message pour confirmer que le JS est chargé
+
 
     // Ajouter un nouveau tank
     const newTank = { id: socket.id, x: 100, y: 100, angle: 0 };
