@@ -16,6 +16,17 @@ function startGame() {
     canvas.style.display = 'block'; // Afficher le canvas
     document.addEventListener("keydown", handleKeyPress); // Activer les contrôles
     requestAnimationFrame(gameLoop); // Lancer la boucle de jeu
+
+    // Pour vérifier si la fonction est appelée
+    console.log("Le jeu a commencé !");
+}
+
+// Démarrer le jeu
+function startGame() {
+    playButton.style.display = 'none'; // Cacher le bouton "Jouer"
+    canvas.style.display = 'block'; // Afficher le canvas
+    document.addEventListener("keydown", handleKeyPress); // Activer les contrôles
+    requestAnimationFrame(gameLoop); // Lancer la boucle de jeu
 }
 
 // Fonction de gestion des touches
