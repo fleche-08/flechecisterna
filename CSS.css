@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    background: #a9d6e5; /* Couleur du fond */
+}
