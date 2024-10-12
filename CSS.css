@@ -1,4 +1,5 @@
 body {
-    background-color: lightblue; /* Change la couleur de fond pour tester */
-    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Couleur de fond */
+    font-family: Arial, sans-serif; /* Police du texte */
+    text-align: center; /* Alignement du texte */
 }
